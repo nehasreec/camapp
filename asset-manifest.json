@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/camapp/static/css/main.5808c9d9.css",
+    "main.js": "/camapp/static/js/main.d9eb2e68.js",
+    "index.html": "/camapp/index.html",
+    "main.5808c9d9.css.map": "/camapp/static/css/main.5808c9d9.css.map",
+    "main.d9eb2e68.js.map": "/camapp/static/js/main.d9eb2e68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5808c9d9.css",
+    "static/js/main.d9eb2e68.js"
+  ]
+}
