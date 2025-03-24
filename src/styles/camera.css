@@ -1,0 +1,55 @@
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+    position: relative;
+  }
+  
+  .camera-feed {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .flash-btn, .flip-btn, .capture-btn, .record-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .capture-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: white;
+    border: 4px solid gray;
+  }
+  
+  .record-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: red;
+  }
+  
+  .recording {
+    background: darkred;
+  }
+  

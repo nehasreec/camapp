@@ -1,0 +1,32 @@
+/* Reset default margins & paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Global Styles */
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Common Button Styles */
+  .button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .button-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .button-secondary {
+    background-color: #333;
+    color:
+  }
